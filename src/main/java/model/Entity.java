@@ -29,11 +29,11 @@ public abstract class Entity {
     private int direction;
 
     //Constantes manejo dirección
-    protected static final int DIR_NONE = 0;
-    protected static final int DIR_LEFT = 1;
-    protected static final int DIR_RIGHT = 3;
-    protected static final int DIR_UP = 2;
-    protected static final int DIR_DOWN = 4;
+    public static final int DIR_NONE = 0;
+    public static final int DIR_LEFT = 1;
+    public static final int DIR_RIGHT = 3;
+    public static final int DIR_UP = 2;
+    public static final int DIR_DOWN = 4;
 
     public Entity(int x, int y, BufferedImage sprite) {
         this.x = x;
